@@ -4,31 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Homepage</title>
+     <title>Homepage</title>
 </head>
 <body>
-    <nav class="nav">
+    <div class="nav">
         <h1>Homepage</h1>
         <ul>
             <li>
-                <Button>
+                <div class="nav-item">
+                    <Button class="nav-button">
                     Home
-                </Button>
+                    </Button>
+                </div>
             </li>
             <li>
-                Über mich
+                <div class="nav-item">
+                    <button class="nav-button" href=="#">
+                      Über mich  
+                    </button>
+                </div>
+                
             </li>
             <li>
-                Projekte
+                <div class="nav-item">
+                    <button class="nav-button">
+                       Projekte 
+                    </button>
+                </div>
             </li>
         </ul>
-    </nav>
+    </div>
     <section class="hero-section">
         <div class="hero-carousel">
+            <div class="image-widow"></div>
             <div class="carousel-controller">
-                <button><</button>
-                <img src="#" alt="#">
-                <button>></button>
+                <button class="carousel-button"><</button>
+                <button class="carousel-button">></button>
             </div>
         </div>
     </section>

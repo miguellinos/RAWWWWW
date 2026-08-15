@@ -1,0 +1,13 @@
+.nav{
+    padding: 1em;
+    width: 100%;
+}
+
+.nav ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
